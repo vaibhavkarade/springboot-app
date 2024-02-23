@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: myacrrepo1234123.azurecr.io/myacrrepo1234123:latest
+        image: vaibhavkarade/springboot-app
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
